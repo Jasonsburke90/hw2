@@ -1,0 +1,43 @@
+.ai-c {
+  align-items: center;
+}
+
+.bgc-red {
+  background-color: red;
+}
+.fg-1 {
+  flex-grow: 1;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.lis-n {
+  list-style: none;
+}
+.p {
+  padding: 1.5rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+/* media queries */
+/* large screens */
+@media (min-width: 768px) {
+  .d-f\@large {
+    display: flex;
+  }
+  .ml\@large {
+    margin-left: 2rem;
+  }
+}
+
+/* small screens (phone) */
+@media (max-width: 767px) {
+}
