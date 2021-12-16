@@ -1,27 +1,95 @@
+/* ELEMENT STYLES */
+
+body {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+/* FORMATTING */
+
 .ai-c {
   align-items: center;
 }
 
-.bgc-aqua {
-  background-color: aqua;
+.jc-sb {
+  justify-content: space-between;
 }
 
-.bgc-red {
-  background-color: red;
+.max-w-100 {
+  max-width: 100%;
 }
 
-.bgc-yellow {
-  background-color: yellow;
+.min-w-50 {
+  min-width: 50%;
 }
 
-.brd-c-black {
-  border: black;
+.min-w-100 {
+  min-width: 100%;
+}
+
+.p {
+  padding: 1rem;
+}
+
+.p25 {
+  padding: 0.25rem;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-c {
+  width: fit-content;
+}
+
+/* BACKGROUNDS */
+.bgc-pine {
+  background-color: #69a297;
+}
+.bgc-darkblue {
+  background-color: #242333;
+}
+
+/* BORDERS */
+.brd-c-white {
+  border: white;
 }
 
 .brd-s-solid {
   border-style: solid;
 }
 
+/* FONTS */
+.fc-white {
+  color: white;
+}
+
+.fs-bold {
+  font-style: bold;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fz-\+ {
+  font-size: large;
+}
+
+.fz-\+\+ {
+  font-size: larger;
+}
+
+.fz-\+\+\+ {
+  font-size: x-large;
+}
+
+/* FLEX */
 .d-f {
   display: flex;
 }
@@ -44,54 +112,6 @@
 
 .fx-w {
   flex-wrap: wrap;
-}
-
-.fs-italic {
-  font-style: italic;
-}
-
-.fz-\+ {
-  font-size: large;
-}
-
-.fz-\+\+ {
-  font-size: larger;
-}
-
-.fz-\+\+\+ {
-  font-size: x-large;
-}
-
-.jc-sb {
-  justify-content: space-between;
-}
-
-.max-w-100 {
-  max-width: 100%;
-}
-
-.min-w-50 {
-  min-width: 50%;
-}
-
-.min-w-100 {
-  min-width: 100%;
-}
-
-.p {
-  padding: 1.5rem;
-}
-
-.w-75 {
-  width: 75%;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.w-c {
-  width: fit-content;
 }
 
 /* media queries */
