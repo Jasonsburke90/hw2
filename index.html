@@ -19,19 +19,37 @@
         <nav class="ai-c jc-sb p d-f@large">
             <div class="bgc-pine fs-bold fs-italic fz-+++ p25 w-c">JB</div>
             <ul class="d-f@large fz-+">
-                <li class="ml@large">About Me</li>
-                <li class="ml@large">Projects</li>
-                <li class="ml@large">Contact Me</li>
+                <a href="#about_me">
+                    <li class="ml@large">About Me</li>
+                </a>
+                <a href="#my_projects">
+                    <li class="ml@large">Projects</li>
+                </a>
+                <a href="#contact_me">
+                    <li class="ml@large">Contact Me</li>
+                </a>
             </ul>
         </nav>
     </header>
 
     <main class="fxd-c p d-f">
         <!-- about me -->
-        <section class="d-f p">
-            <div class="fx-1"> Hello! My name is Jason Burke, and </div>
+        <section class="d-f fw-wr p">
+
+            <div id="about_me" class="ai-c d-f fxd-c jc-c fx-1">
+                <p class="p">Hello! My name is Jason Burke, and I'm a programmer! I'm a big fan of
+                    movies and board games, so a number of my projects have some relation to those! Many are built to
+                    streamline the book-keeping for board games that I love.</p>
+                <p class="p">I live in Chicago, and currently work in Medical Education. I work with students while they
+                    rotate on
+                    their Surgery Clerkship during their 3rd year of medical school.</p>
+                <p class="p">In my spare time I run and compete in Warhammer events in the Chicago area. Blood Bowl and
+                    Warhammer Underworlds are my favorites, but I play other games as well! For these games you build
+                    and paint your own miniatures.</p>
+            </div>
+
             <!-- headshot -->
-            <div class="fx-1">
+            <div class="ai-c d-f fx-1 jc-c">
                 <img class="w-100" src="./assets/images/jason-pic.jpg" alt="Jason Burke Headshot">
             </div>
 
@@ -39,29 +57,36 @@
 
         <!-- projects -->
         <section class="d-f fx-w p">
-            <h1 class="fx-1">My Projects:</h1>
-            <Section class="fx-1-100">
-                <div class="ta-c">Horiseon Website</div>
-                <img class="w-100" src="./assets/images/horiseon-img.png">
+
+            <h1 id="my_projects" class="fx-1 ta-c">My Projects:</h1>
+
+            <Section class="ta-c fx-1-100 p">
+                <div class="">Horiseon Website</div>
+                <a href="https://jasonsburke90.github.io/hw1b/"><img class="w-75" src="./assets/images/horiseon-img.png"
+                        alt="horiseon page"></a>
             </Section>
 
-            <section class="fx-1-100 maxw45@lrg">
+            <section class="fx-1-100 p ta-c  maxw45@lrg">
                 <div>Band Fansite</div>
+                <a href=""><img class="w-75" src="./assets/images/Yeah_Yeah_Yeahs_Band_Logo.png"
+                        alt="yeah yeah yeahs fansite"></a>
             </section>
-            <section class="fx-1-100 maxw45@lrg">
+            <section class="fx-1-100 p ta-c  maxw45@lrg">
                 <div>Blood Bowl Toolkit (In Progress)</div>
+                <a href=""><img class="w-75" src="./assets/images/blood_bowl.jpg" alt="blood bowl app"></a>
             </section>
-            <section class="fx-1-100 maxw45@lrg">
+            <section class="fx-1-100 p ta-c maxw45@lrg">
                 <div>Dice Roller (In Progress)</div>
+                <a href=""><img class="w-75" src="./assets/images/dice_pic.jpg" alt="dice roller"></a>
             </section>
-            <section class="fx-1-100 maxw45@lrg">
+            <section class="fx-1-100 p ta-c  maxw45@lrg">
                 <div>PROJECT 5</div>
             </section>
         </section>
 
     </main>
     <!-- footer (contact me) -->
-    <footer class=" ai-c bgc-pine jc-sb p d-f@large">
+    <footer id="contact_me" class=" ai-c bgc-pine jc-sb p d-f@large">
         <div>Contact me</div>
         <ul class="d-f@large ">
             <li class="ml@large"><a href="mailto: jasonsburke90@gmail.com">Email Me</a></li>

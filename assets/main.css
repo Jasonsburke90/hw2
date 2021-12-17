@@ -11,12 +11,20 @@ body {
   align-items: center;
 }
 
+.disp-b {
+  display: block;
+}
 .jc-c {
   justify-content: center;
 }
-
+.ac-c {
+  align-content: center;
+}
 .jc-sb {
   justify-content: space-between;
+}
+.marg-auto {
+  margin: auto;
 }
 
 .max-w-100 {
@@ -81,6 +89,9 @@ body {
   font-style: italic;
 }
 
+.fz--- {
+  font-size: smaller;
+}
 .fz-\+ {
   font-size: large;
 }
@@ -91,6 +102,9 @@ body {
 
 .fz-\+\+\+ {
   font-size: x-large;
+}
+.ta-c {
+  text-align: center;
 }
 
 /* FLEX */
@@ -120,6 +134,10 @@ body {
 
 .fx-w {
   flex-wrap: wrap;
+}
+
+.fx-wr {
+  flex-wrap: wrap-reverse;
 }
 
 .ta-c {
