@@ -140,10 +140,6 @@ body {
   flex-wrap: wrap-reverse;
 }
 
-.ta-c {
-  text-align: center;
-}
-
 /* media queries */
 /* large screens */
 @media (min-width: 768px) {
@@ -151,6 +147,13 @@ body {
     display: flex;
   }
 
+  .jc-sb\@lrg {
+    justify-content: space-between;
+  }
+
+  .fx-1\@lrg {
+    flex: 1 0 0;
+  }
   .maxw45\@lrg {
     max-width: 45%;
   }
