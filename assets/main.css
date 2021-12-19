@@ -4,6 +4,9 @@ body {
   color: white;
   font-family: "Inter", sans-serif;
 }
+img {
+  width: 100%;
+}
 
 nav {
   border-bottom: 1px solid white;
@@ -67,8 +70,9 @@ footer {
   padding: 0.25rem;
 }
 
-.w-75 {
-  width: 75%;
+.pos-rel {
+  position: relative;
+  margin: -4rem 0 4rem 0;
 }
 
 .w-100 {
@@ -123,6 +127,14 @@ footer {
 .fz-\+\+\+ {
   font-size: x-large;
 }
+
+.ta-b {
+  text-align: bottom;
+}
+.ta-l {
+  text-align: left;
+}
+
 .ta-c {
   text-align: center;
 }
