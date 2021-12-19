@@ -8,7 +8,9 @@ The portfolio has my personal info, a photo, and sections about me, my work, and
 
 ## Screenshots
 
-![See below for my portfolio page screenshots.  One is fullscreen, the other is on a small screen]
+![Fullscreen portfolio page screenshot](./assets/images/hw2.index_large_screen.png)
+
+![Smaller screen portfolio page screenshot](./assets/images/hw2.index_small_screen.png)
 
 ## Links to application
 
